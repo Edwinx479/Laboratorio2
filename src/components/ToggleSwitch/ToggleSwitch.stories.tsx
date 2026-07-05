@@ -24,6 +24,7 @@ export const On: Story = {
   args: {
     label: 'Modo Oscuro',
     defaultChecked: true,
+    color: 'secondary',
   },
 };
 
@@ -31,5 +32,12 @@ export const SinLabel: Story = {
   args: {
     label: '',
     defaultChecked: true,
+  },
+};
+
+export const ConTextoPersonalizado: Story = {
+  args: {
+    label: 'Acepto términos',
+    defaultChecked: false,
   },
 };
